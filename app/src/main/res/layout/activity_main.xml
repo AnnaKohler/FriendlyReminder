@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_relativeLayout"
+    tools:context="ru.workingcorgi.friendlyreminder.MainActivity"
+    android:orientation="vertical">
+
+
+    <fragment
+        android:id="@+id/container_words"
+        android:name="ru.workingcorgi.friendlyreminder.NiceWordsFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_weight="3"
+        />
+
+    <fragment
+        android:id="@+id/container_toDo_list"
+        android:name="ru.workingcorgi.friendlyreminder.ToDoListFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_weight="7">
+
+    </fragment>
+</LinearLayout>
