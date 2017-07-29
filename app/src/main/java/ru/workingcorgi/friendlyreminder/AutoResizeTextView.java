@@ -1,21 +1,21 @@
+
+
 package ru.workingcorgi.friendlyreminder;
 
-/**
- * Created by Anna on 16.07.2017.
- */
-
-import android.annotation.TargetApi;
 import android.content.Context;
-import android.content.res.Resources;
-import android.graphics.RectF;
-import android.os.Build;
 import android.text.Layout.Alignment;
 import android.text.StaticLayout;
 import android.text.TextPaint;
 import android.util.AttributeSet;
-import android.util.SparseIntArray;
 import android.util.TypedValue;
 import android.widget.TextView;
+
+import android.annotation.TargetApi;
+import android.content.res.Resources;
+import android.graphics.RectF;
+import android.os.Build;
+import android.util.SparseIntArray;
+
 
 public class AutoResizeTextView extends android.support.v7.widget.AppCompatTextView {
     private interface SizeTester {
@@ -228,7 +228,6 @@ public class AutoResizeTextView extends android.support.v7.widget.AppCompatTextV
     public void enableSizeCache(boolean enable) {
         mEnableSizeCache = enable;
         mTextCachedSizes.clear();
-        //adjustTextSize(getText().toString());
         adjustTextSize();
     }
 

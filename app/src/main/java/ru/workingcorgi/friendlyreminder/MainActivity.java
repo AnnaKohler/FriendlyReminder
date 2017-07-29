@@ -2,17 +2,10 @@ package ru.workingcorgi.friendlyreminder;
 
 
 import android.support.v4.app.FragmentActivity;
-import android.support.v4.app.FragmentManager;
 import android.os.Bundle;
-import android.util.DisplayMetrics;
-import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 
 public class MainActivity extends FragmentActivity {
-
-    public NiceWordsFragment CreateNiceWordsFragment(int color){
-        return NiceWordsFragment.newInstance();
-    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,18 +18,6 @@ public class MainActivity extends FragmentActivity {
 
         LinearLayout linearLayout = (LinearLayout)findViewById(R.id.main_relativeLayout);
         linearLayout.setBackgroundColor(rndColor);
-
-        //Getting the screen size
-        /*DisplayMetrics displayMetrics = new DisplayMetrics();
-        getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
-
-        int dispHeight = displayMetrics.heightPixels;
-
-        //Setting the size of a container for words
-        FrameLayout containerWords=(FrameLayout)findViewById(R.id.container_words);
-        FrameLayout.LayoutParams params = (FrameLayout.LayoutParams) containerWords.getLayoutParams();
-        params.height=(int)(dispHeight*0.6);
-        containerWords.setLayoutParams(params); //TODO: убрать, если weights нормально работают*/
 
 
     }

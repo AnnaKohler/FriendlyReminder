@@ -39,9 +39,11 @@ public class NiceWordsFragment extends Fragment {
         View v = inflater.inflate(R.layout.fragment_nicewords, container, false);
 
         //Setting the words
-        TextView words= (TextView)v.findViewById(R.id.txtWords);
+        AutoResizeTextView words= (AutoResizeTextView)v.findViewById(R.id.txtWords);
         words.setText(rndNiceWords);
+        //Getting the font
         
+
         return v;
     }
 }
