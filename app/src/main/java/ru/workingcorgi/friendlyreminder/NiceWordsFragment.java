@@ -1,5 +1,6 @@
 package ru.workingcorgi.friendlyreminder;
 
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -42,7 +43,8 @@ public class NiceWordsFragment extends Fragment {
         AutoResizeTextView words= (AutoResizeTextView)v.findViewById(R.id.txtWords);
         words.setText(rndNiceWords);
         //Getting the font
-        
+        Typeface type = Typeface.createFromAsset(getActivity().getAssets(), "fonts/Arimo-BoldItalic.ttf");
+        words.setTypeface(type);
 
         return v;
     }

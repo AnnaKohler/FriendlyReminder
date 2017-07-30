@@ -33,24 +33,18 @@
     <color name="warm_yellow">#fdb36a</color>
     <color name="bright_peach_pink">#ff6e4e</color>
     <color name="orange_orange">#fea201</color>
-    <color name="sun_yellow">#ffe02a</color>
-    <color name="fox_orange">#ed6401</color>
+    <color name="fox_orange">#ed6401</color>ы
     <color name="turquoise_blue">#348e7c</color>
     <color name="calm_green">#acae64</color>
-    <color name="dark_calm_green">#746f2c</color>
     <color name="coffee_milk_brown">#d7aa7e</color>
     <color name="dark_blue_green">#3a5335</color>
     <color name="blue_green">#87a08b</color>
     <color name="warm_sun_yellow">#ffd24d</color>
-    <color name="bright_dark_blue">#28398d</color>
     <color name="violet_blue">#7387c3</color>
     <color name="pale_blue2">#c6d3fa</color>
     <color name="orange_pink">#faac88</color>
     <color name="violet3">#986a8d</color>
     <color name="cornflower_blue">#6587d3</color>
-    <color name="bright_dark_green">#226015</color>
-    <color name="bright_light_green">#bdc901</color>
-    <color name="bright_light_green2">#8aab00</color>
     <color name="brick_orange">#cf722a</color>
     <color name="jungle_green">#548942</color>
     <color name="raspberry_red">#c63556</color>
@@ -88,25 +82,17 @@
         <item>@color/warm_yellow</item>
         <item>@color/bright_peach_pink</item>
         <item>@color/orange_orange</item>
-        <item>@color/sun_yellow</item>
-        <item>@color/fox_orange</item>
         <item>@color/turquoise_blue</item>
         <item>@color/calm_green</item>
-        <item>@color/dark_calm_green</item>
         <item>@color/coffee_milk_brown</item>
         <item>@color/dark_blue_green</item>
         <item>@color/blue_green</item>
         <item>@color/warm_sun_yellow</item>
-        <item>@color/bright_dark_blue</item>
         <item>@color/violet_blue</item>
         <item>@color/pale_blue2</item>
         <item>@color/orange_pink</item>
         <item>@color/violet3</item>
         <item>@color/cornflower_blue</item>
-        <item>@color/bright_dark_green</item>
-        <item>@color/bright_light_green</item>
-        <item>@color/bright_light_green2</item>
-        <item>@color/brick_orange</item>
         <item>@color/jungle_green</item>
         <item>@color/raspberry_red</item>
         <item>@color/pale_citrus_yellow</item>
